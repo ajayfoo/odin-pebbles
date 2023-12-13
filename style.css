@@ -50,6 +50,11 @@ header h1 {
     margin: 0;
 }
 
+.hero-left p {
+    padding: 0;
+    margin: 0 0 10px;
+}
+
 .hero-left button {
     background-color: #3882f6;
     font-size: 18px;
@@ -67,7 +72,7 @@ header h1 {
 }
 
 .info {
-    background-color: #f9faf8;
+    background-color: white;
     color: #1f2937;
     padding: 50px 200px 80px;
 }
@@ -79,7 +84,7 @@ header h1 {
 }
 
 .cards {
-    margin-top: 50px;
+    margin: 50px 0 0;
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -100,6 +105,20 @@ header h1 {
 
 .card p {
     text-align: center;
-    color: #1f2937;
+    color: gray;
     width: 160px;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    padding: 50px 200px 80px;
+    color: #1f2937;
+}
+
+.testimonial p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
 }
