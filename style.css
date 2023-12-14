@@ -79,6 +79,7 @@ header h1 {
 
 .info h2 {
     text-align: center;
+    font-size: 36px;
     padding: 0;
     margin: 0;
 }
@@ -101,12 +102,14 @@ header h1 {
     border: 5px solid #3882f6;
     border-radius: 15px;
     flex: 0 0 170px;
+    margin-bottom: 0;
 }
 
 .card p {
     text-align: center;
     color: gray;
     width: 160px;
+    margin-top: 6px;
 }
 
 .testimonial {
@@ -127,5 +130,43 @@ header h1 {
     text-align: right;
     margin-top: 10px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 21px;
+}
+
+.suggestion-wrapper {
+    color: white;
+    background-color: white;
+    padding: 80px 200px 80px;
+}
+
+.suggestion {
+    display: flex;
+    background-color: #3882f6;
+    padding: 45px 100px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.suggestion-text h3,
+.suggestion-text p {
+    padding: 0;
+    margin: 0;
+}
+
+.suggestion button {
+    font-size: 14px;
+    font-weight: 1000;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: solid #e5e7eb 2px;
+    border-radius: 7px;
+    padding: 7px 30px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
 }
